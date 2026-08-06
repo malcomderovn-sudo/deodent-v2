@@ -11,7 +11,13 @@ import { StatsSection } from "@/components/sections/stats";
 import { GallerySection } from "@/components/sections/gallery";
 import { TeamSection } from "@/components/sections/team";
 import { BeforeAfterSection } from "@/components/sections/before-after";
+import { CalculatorSection } from "@/components/sections/calculator";
+import { OffersSection } from "@/components/sections/offers";
+import { QuizSection } from "@/components/sections/quiz";
+import { ReviewsSection } from "@/components/sections/reviews";
 import { FaqSection } from "@/components/sections/faq";
+import { FearsSection } from "@/components/sections/fears";
+import { CommunitySection } from "@/components/sections/community";
 import { BlogSection } from "@/components/sections/blog";
 import { ContactSection } from "@/components/sections/contact";
 
@@ -30,6 +36,12 @@ export default function Home() {
         <GallerySection />
         <TeamSection />
         <BeforeAfterSection />
+        <CalculatorSection />
+        <OffersSection />
+        <ReviewsSection />
+        <QuizSection />
+        <FearsSection />
+        <CommunitySection />
         <FaqSection />
         <BlogSection />
         <ContactSection />
